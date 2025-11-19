@@ -6,7 +6,11 @@ import removeLoadingElements from "./removeLoadingElements.js";
 
 const TIME = 60000; // 1 minute in milliseconds or 1000 for one second
 
-export default async function startApp(){
+/**
+ * Initialise l'application météo.
+ * Construit l'interface, récupère les données initiales et met en place un intervalle pour rafraîchir les données toutes les heures.
+ */
+export default async function startApp() {
     try{
         
         const currentDate = new Date();

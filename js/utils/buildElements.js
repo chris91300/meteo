@@ -3,7 +3,11 @@ import buildParagraph from "./buildParagraph.js";
 import buildImg from "./buildSVG.js";
 
 
-export default function buildElements(){
+/**
+ * Construit la structure HTML de base de l'application météo.
+ * @returns {Object.<string, HTMLElement>} Un objet contenant des références aux éléments du DOM créés.
+ */
+export default function buildElements() {
 
         const appElement = document.getElementById("app");
 

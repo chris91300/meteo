@@ -4,6 +4,10 @@ import getCityConfig from './getCityConfig.js';
 
 
 
+/**
+ * Récupère le nom de la ville depuis la configuration et utilise l'API géo du gouvernement pour trouver son code INSEE.
+ * @returns {Promise<{city: string, inseeCode: string}>} Une promesse qui se résout avec un objet contenant le nom de la ville et son code INSEE.
+ */
 export default async function getCityAndInseeCode() {
     try{
         const config = await getCityConfig();

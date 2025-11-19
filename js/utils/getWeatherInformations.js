@@ -1,7 +1,12 @@
 
 
 
-export default function getWeatherInformations(data){
+/**
+ * Extrait les informations météorologiques pertinentes des données brutes de l'API.
+ * @param {object} data - Les données brutes de l'API météo.
+ * @returns {object} Un objet contenant les informations météorologiques clés (température, humidité, etc.).
+ */
+export default function getWeatherInformations(data) {
     try{
         if(!data || data.length === 0){
             throw new Error("No data provided to getWeatherInformations");

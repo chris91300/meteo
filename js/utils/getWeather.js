@@ -10,6 +10,10 @@ import getTextAndIcon from "./getTextAndIcon.js";
 
 
 
+/**
+ * Récupère les données météorologiques complètes pour la ville configurée.
+ * @returns {Promise<object>} Une promesse qui se résout avec un objet contenant toutes les informations météorologiques.
+ */
 export default async function getWeather() {
     try{
         const { city, inseeCode } = await getCityAndInseeCode();
