@@ -1,0 +1,354 @@
+{
+  "0": {
+    "text": "Soleil",
+    "icon": "day"
+  },
+  "1": {
+    "text": "Peu nuageux",
+    "icon": "day"
+  },
+  "2": {
+    "text": "Ciel voilé",
+    "icon": "cloudy-day-1"
+  },
+  "3": {
+    "text": "Nuageux",
+    "icon": "cloudy-day-2"
+  },
+  "4": {
+    "text": "Très nuageux",
+    "icon": "cloudy-day-3"
+  },
+  "5": {
+    "text": "Couvert",
+    "icon": "cloudy-day-2"
+  },
+  "6": {
+    "text": "Brouillard",
+    "icon": "cloudy-day-2"
+  },
+  "7": {
+    "text": "Brouillard givrant",
+    "icon": "cloudy"
+  },
+  "10": {
+    "text": "Pluie faible",
+    "icon": "rainy-4"
+  },
+  "11": {
+    "text": "Pluie modérée",
+    "icon": "rainy-5"
+  },
+  "12": {
+    "text": "Pluie forte",
+    "icon": "rainy-6"
+  },
+  "13": {
+    "text": "Pluie faible verglaçante",
+    "icon": "rainy-4"
+  },
+  "14": {
+    "text": "Pluie modérée verglaçante",
+    "icon": "rainy-5"
+  },
+  "15": {
+    "text": "Pluie forte verglaçante",
+    "icon": "rainy-6"
+  },
+  "16": {
+    "text": "Bruine",
+    "icon": "cloudy"
+  },
+  "20": {
+    "text": "Neige faible",
+    "icon": "snowy-4"
+  },
+  "21": {
+    "text": "Neige modérée",
+    "icon": "snowy-5"
+  },
+  "22": {
+    "text": "Neige forte",
+    "icon": "snowy-6"
+  },
+  "30": {
+    "text": "Pluie et neige mêlées faibles",
+    "icon": "snowy-4"
+  },
+  "31": {
+    "text": "Pluie et neige mêlées modérées",
+    "icon": "snowy-5"
+  },
+  "32": {
+    "text": "Pluie et neige mêlées fortes",
+    "icon": "snowy-6"
+  },
+  "40": {
+    "text": "Averses de pluie locales et faibles",
+    "icon": "rainy-4"
+  },
+  "41": {
+    "text": "Averses de pluie locales",
+    "icon": "rainy-5"
+  },
+  "42": {
+    "text": "Averses locales et fortes",
+    "icon": "rainy-6"
+  },
+  "43": {
+    "text": "Averses de pluie faibles",
+    "icon": "rainy-4"
+  },
+  "44": {
+    "text": "Averses de pluie",
+    "icon": "rainy-4"
+  },
+  "45": {
+    "text": "Averses de pluie fortes",
+    "icon": "rainy-7"
+  },
+  "46": {
+    "text": "Averses de pluie faibles et fréquentes",
+    "icon": "rainy-4"
+  },
+  "47": {
+    "text": "Averses de pluie fréquentes",
+    "icon": "rainy-5"
+  },
+  "48": {
+    "text": "Averses de pluie fortes et fréquentes",
+    "icon": "rainy-6"
+  },
+  "60": {
+    "text": "Averses de neige localisées et faibles",
+    "icon": "snowy-4"
+  },
+  "61": {
+    "text": "Averses de neige localisées",
+    "icon": "snowy-5"
+  },
+  "62": {
+    "text": "Averses de neige localisées et fortes",
+    "icon": "snowy-6"
+  },
+  "63": {
+    "text": "Averses de neige faibles",
+    "icon": "snowy-4"
+  },
+  "64": {
+    "text": "Averses de neige",
+    "icon": "snowy-5"
+  },
+  "65": {
+    "text": "Averses de neige fortes",
+    "icon": "snowy-6"
+  },
+  "66": {
+    "text": "Averses de neige faibles et fréquentes",
+    "icon": "rainy-4"
+  },
+  "67": {
+    "text": "Averses de neige fréquentes",
+    "icon": "rainy-5"
+  },
+  "68": {
+    "text": "Averses de neige fortes et fréquentes",
+    "icon": "rainy-6"
+  },
+  "70": {
+    "text": "Averses de pluie et neige mêlées localisées et faibles",
+    "icon": "snowy-4"
+  },
+  "71": {
+    "text": "Averses de pluie et neige mêlées localisées",
+    "icon": "snowy-5"
+  },
+  "72": {
+    "text": "Averses de pluie et neige mêlées localisées et fortes",
+    "icon": "snowy-6"
+  },
+  "73": {
+    "text": "Averses de pluie et neige mêlées faibles",
+    "icon": "snowy-4"
+  },
+  "74": {
+    "text": "Averses de pluie et neige mêlées",
+    "icon": "snowy-5"
+  },
+  "75": {
+    "text": "Averses de pluie et neige mêlées fortes",
+    "icon": "snowy-6"
+  },
+  "76": {
+    "text": "Averses de pluie et neige mêlées faibles et nombreuses",
+    "icon": "snowy-4"
+  },
+  "77": {
+    "text": "Averses de pluie et neige mêlées fréquentes",
+    "icon": "snowy-5"
+  },
+  "78": {
+    "text": "Averses de pluie et neige mêlées fortes et fréquentes",
+    "icon": "snowy-6"
+  },
+  "100": {
+    "text": "Orages faibles et locaux",
+    "icon": "thunder"
+  },
+  "101": {
+    "text": "Orages locaux",
+    "icon": "thunder"
+  },
+  "102": {
+    "text": "Orages fort et locaux",
+    "icon": "thunder"
+  },
+  "103": {
+    "text": "Orages faibles",
+    "icon": "thunder"
+  },
+  "104": {
+    "text": "Orages",
+    "icon": "thunder"
+  },
+  "105": {
+    "text": "Orages forts",
+    "icon": "thunder"
+  },
+  "106": {
+    "text": "Orages faibles et fréquents",
+    "icon": "thunder"
+  },
+  "107": {
+    "text": "Orages fréquents",
+    "icon": "thunder"
+  },
+  "108": {
+    "text": "Orages forts et fréquents",
+    "icon": "thunder"
+  },
+  "120": {
+    "text": "Orages faibles et locaux de neige ou grésil",
+    "icon": "thunder"
+  },
+  "121": {
+    "text": "Orages locaux de neige ou grésil",
+    "icon": "thunder"
+  },
+  "122": {
+    "text": "Orages locaux de neige ou grésil",
+    "icon": "thunder"
+  },
+  "123": {
+    "text": "Orages faibles de neige ou grésil",
+    "icon": "thunder"
+  },
+  "124": {
+    "text": "Orages de neige ou grésil",
+    "icon": "thunder"
+  },
+  "125": {
+    "text": "Orages de neige ou grésil",
+    "icon": "thunder"
+  },
+  "126": {
+    "text": "Orages faibles et fréquents de neige ou grésil",
+    "icon": "thunder"
+  },
+  "127": {
+    "text": "Orages fréquents de neige ou grésil",
+    "icon": "thunder"
+  },
+  "128": {
+    "text": "Orages fréquents de neige ou grésil",
+    "icon": "thunder"
+  },
+  "130": {
+    "text": "Orages faibles et locaux de pluie et neige mêlées ou grésil",
+    "icon": "thunder"
+  },
+  "131": {
+    "text": "Orages locaux de pluie et neige mêlées ou grésil",
+    "icon": "thunder"
+  },
+  "132": {
+    "text": "Orages fort et locaux de pluie et neige mêlées ou grésil",
+    "icon": "thunder"
+  },
+  "133": {
+    "text": "Orages faibles de pluie et neige mêlées ou grésil",
+    "icon": "thunder"
+  },
+  "134": {
+    "text": "Orages de pluie et neige mêlées ou grésil",
+    "icon": "thunder"
+  },
+  "135": {
+    "text": "Orages forts de pluie et neige mêlées ou grésil",
+    "icon": "thunder"
+  },
+  "136": {
+    "text": "Orages faibles et fréquents de pluie et neige mêlées ou grésil",
+    "icon": "thunder"
+  },
+  "137": {
+    "text": "Orages fréquents de pluie et neige mêlées ou grésil",
+    "icon": "thunder"
+  },
+  "138": {
+    "text": "Orages forts et fréquents de pluie et neige mêlées ou grésil",
+    "icon": "thunder"
+  },
+  "140": {
+    "text": "Pluies orageuses",
+    "icon": "thunder"
+  },
+  "141": {
+    "text": "Pluie et neige mêlées à caractère orageux",
+    "icon": "thunder"
+  },
+  "142": {
+    "text": "Neige à caractère orageux",
+    "icon": "thunder"
+  },
+  "210": {
+    "text": "Pluie faible intermittente",
+    "icon": "rainy-4"
+  },
+  "211": {
+    "text": "Pluie modérée intermittente",
+    "icon": "rainy-5"
+  },
+  "212": {
+    "text": "Pluie forte intermittente",
+    "icon": "rainy-6"
+  },
+  "220": {
+    "text": "Neige faible intermittente",
+    "icon": "snowy-4"
+  },
+  "221": {
+    "text": "Neige modérée intermittente",
+    "icon": "snowy-5"
+  },
+  "222": {
+    "text": "Neige forte intermittente",
+    "icon": "snowy-6"
+  },
+  "230": {
+    "text": "Pluie et neige mêlées",
+    "icon": "snowy-5"
+  },
+  "231": {
+    "text": "Pluie et neige mêlées",
+    "icon": "snowy-5"
+  },
+  "232": {
+    "text": "Pluie et neige mêlées",
+    "icon": "snowy-5"
+  },
+  "235": {
+    "text": "Averses de grêle",
+    "icon": "snowy-7"
+  }
+}
