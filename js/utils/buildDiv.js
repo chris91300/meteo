@@ -1,10 +1,10 @@
 
 /**
- * Crée un élément div, lui assigne une classe et l'ajoute à un élément parent.
- * @param {object} options - Les options pour la création du div.
- * @param {HTMLElement} options.parentElement - L'élément parent auquel le div sera ajouté.
- * @param {string} options.className - La classe CSS à assigner au div.
- * @returns {HTMLDivElement} L'élément div créé.
+ * Creates a div element, assigns it a class, and appends it to a parent element.
+ * @param {object} options - The options for creating the div.
+ * @param {HTMLElement} options.parentElement - The parent element to which the div will be appended.
+ * @param {string} options.className - The CSS class to assign to the div.
+ * @returns {HTMLDivElement} The created div element.
  */
 export default function buildDiv({ parentElement, className }) {
     const div = document.createElement("div");

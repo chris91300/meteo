@@ -3,9 +3,9 @@ import buildDiv from "./buildDiv.js"
 
 function getLoading(){
     /**
-     * Crée et ajoute un élément de chargement à un parent.
-     * @param {HTMLElement} parent - L'élément parent auquel ajouter l'indicateur de chargement.
-     * @param {string} [className] - Une classe CSS supplémentaire à ajouter à l'indicateur de chargement.
+     * Creates and appends a loading element to a parent.
+     * @param {HTMLElement} parent - The parent element to which the loading indicator will be added.
+     * @param {string} [className] - An additional CSS class to add to the loading indicator.
      */
     const loading = (parent, className) => {
         const classNameLoading = className ? `loading ${className}` : "loading";

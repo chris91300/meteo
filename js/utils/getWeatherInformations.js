@@ -2,9 +2,9 @@
 
 
 /**
- * Extrait les informations météorologiques pertinentes des données brutes de l'API.
- * @param {object} data - Les données brutes de l'API météo.
- * @returns {object} Un objet contenant les informations météorologiques clés (température, humidité, etc.).
+ * Extracts relevant weather information from the raw API data.
+ * @param {object} data - The raw data from the weather API.
+ * @returns {object} An object containing key weather information (temperature, humidity, etc.).
  */
 export default function getWeatherInformations(data) {
     try{
@@ -31,5 +31,6 @@ export default function getWeatherInformations(data) {
 
     }catch(err){
         console.log(err)
+        throw err
     }
 }

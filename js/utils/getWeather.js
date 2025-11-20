@@ -3,16 +3,12 @@ import getCityAndInseeCode from "./getCityAndInseeCode.js"
 import getApiWeatheryConfig from "./getApiWeatherConfig.js";
 import getWeatherInformations from "./getWeatherInformations.js";
 import getTextAndIcon from "./getTextAndIcon.js";
-
-
-
-//https://api.meteo-concept.com/api/forecast/hours?token=MON_TOKEN&insee=35238
-
+import fetchDataFrom from "./fetchDataFrom.js";
 
 
 /**
- * Récupère les données météorologiques complètes pour la ville configurée.
- * @returns {Promise<object>} Une promesse qui se résout avec un objet contenant toutes les informations météorologiques.
+ * Retrieves complete weather data for the configured city.
+ * @returns {Promise<object>} A promise that is fulfilled with an object containing all the weather information.
  */
 export default async function getWeather() {
     try{
@@ -24,8 +20,7 @@ export default async function getWeather() {
         console.log("insee code : ",inseeCode);
         const url = apiUrl + 'token=' + apiToken + '&insee=' + inseeCode;
 
-        const response = await fetch(url);
-        const data =  await response.json();
+        const data = await fetchDataFrom(url);
 
         console.log(data)
         const weatherInformations = getWeatherInformations(data);
@@ -40,5 +35,6 @@ export default async function getWeather() {
         return weatherData;
     }catch(err){
         console.log(err)
+        throw err
     }
 }

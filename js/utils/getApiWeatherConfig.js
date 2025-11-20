@@ -1,10 +1,11 @@
+import fetchDataFrom from "./fetchDataFrom.js";
 
 /**
- * Récupère la configuration de l'API météo depuis le fichier `apiWeather.conf.json`.
- * @returns {Promise<object>} Une promesse qui se résout avec l'objet de configuration de l'API.
+ * Fetches the weather API configuration from the `apiWeather.conf.json` file.
+ * @returns {Promise<object>} A promise that resolves with the API configuration object.
  */
 export default async function getApiWeatheryConfig() {
-    const response = await fetch('/apiWeather.conf.json');
-    const cityConfig = await response.json();
+    
+    const cityConfig = await fetchDataFrom('/apiWeather.conf.json');
     return cityConfig;
 }

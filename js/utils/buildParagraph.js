@@ -3,13 +3,13 @@ import { loading } from "./loading.js";
 
 
 /**
- * Crée un élément paragraphe, lui assigne une classe, un contenu textuel et l'ajoute à un élément parent.
- * Si aucun contenu textuel n'est fourni, un indicateur de chargement est affiché.
- * @param {object} options - Les options pour la création du paragraphe.
- * @param {HTMLElement} options.parentElement - L'élément parent auquel le paragraphe sera ajouté.
- * @param {string} [options.className] - La classe CSS à assigner au paragraphe.
- * @param {string} [options.textContent] - Le contenu textuel du paragraphe.
- * @returns {HTMLParagraphElement} L'élément paragraphe créé.
+ * Creates a paragraph element, assigns it a class, text content, and appends it to a parent element.
+ * If no text content is provided, a loading indicator is displayed.
+ * @param {object} options - The options for creating the paragraph.
+ * @param {HTMLElement} options.parentElement - The parent element to which the paragraph will be appended.
+ * @param {string} [options.className] - The CSS class to assign to the paragraph.
+ * @param {string} [options.textContent] - The text content of the paragraph.
+ * @returns {HTMLParagraphElement} The created paragraph element.
  */
 export default function buildParagraph({ parentElement, className, textContent }) {
     const paragraph = document.createElement("p");
@@ -22,7 +22,7 @@ export default function buildParagraph({ parentElement, className, textContent }
     if(textContent){
         paragraph.textContent = textContent;
     }else{
-        loading(paragraph);
+        loading(parentElement);
     }
     
     

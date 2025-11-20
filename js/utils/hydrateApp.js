@@ -2,9 +2,9 @@ import getIconSRC from "./getIconSRC.js";
 
 
 /**
- * Met à jour les éléments du DOM de l'application avec les données météorologiques récupérées.
- * @param {Object.<string, HTMLElement>} appElements - Un objet contenant les références aux éléments du DOM à mettre à jour.
- * @param {object} weather - Un objet contenant les données météorologiques à afficher.
+ * Updates the application's DOM elements with the fetched weather data.
+ * @param {Object.<string, HTMLElement>} appElements - An object containing references to the DOM elements to be updated.
+ * @param {object} weather - An object containing the weather data to display.
  */
 export default function hydrateApp(appElements, weather) {
     const {

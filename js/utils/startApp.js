@@ -7,8 +7,8 @@ import removeLoadingElements from "./removeLoadingElements.js";
 const TIME = 60000; // 1 minute in milliseconds or 1000 for one second
 
 /**
- * Initialise l'application météo.
- * Construit l'interface, récupère les données initiales et met en place un intervalle pour rafraîchir les données toutes les heures.
+ * Initializes the weather application.
+ * Builds the interface, fetches initial data, and sets up an interval to refresh the data hourly.
  */
 export default async function startApp() {
     try{
@@ -17,7 +17,7 @@ export default async function startApp() {
         let currentHour = currentDate.getHours();
         console.log("Start weather application");
         const appElements = buildElements();
-
+        
         await fetchDataAndhydrateApp(appElements);
         removeLoadingElements();
     

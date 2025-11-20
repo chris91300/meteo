@@ -1,18 +1,18 @@
-
+import fetchDataFrom from './fetchDataFrom.js';
 
 
 /**
- * Récupère le texte descriptif et le nom de l'icône correspondant à un code météo.
- * @param {number|string} weatherCode - Le code météo fourni par l'API.
- * @returns {Promise<{text: string, icon: string}>} Une promesse qui se résout avec un objet contenant le texte et le nom de l'icône.
+ * Fetches the descriptive text and icon name corresponding to a weather code.
+ * @param {number|string} weatherCode - The weather code provided by the API.
+ * @returns {Promise<{text: string, icon: string}>} A promise that resolves with an object containing the text and icon name.
  */
 export default async function getTextAndIcon(weatherCode) {
     try{
-        const mapConfig = await fetch('/weatherCode.config.json');
-        const map = await mapConfig.json();
+        const map = await fetchDataFrom('/weatherCode.config.json');        
         return map[weatherCode];
     }catch(err){
         console.log(err)
+        throw err
     }
 
 }

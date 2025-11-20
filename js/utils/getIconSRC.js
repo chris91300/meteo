@@ -1,9 +1,9 @@
 
 
 /**
- * Construit le chemin d'accès à l'icône SVG animée en fonction de son nom.
- * @param {string} name - Le nom de l'icône (sans extension).
- * @returns {string} Le chemin d'accès complet vers le fichier SVG de l'icône.
+ * Constructs the path to the animated SVG icon based on its name.
+ * @param {string} name - The name of the icon (without extension).
+ * @returns {string} The full path to the icon's SVG file.
  */
 export default function getIconSRC(name) {
     const src = `/assets/svg/animated/${name}.svg`;

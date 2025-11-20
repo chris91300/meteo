@@ -1,12 +1,12 @@
-//import config from '../../config.json' assert { type: "json" };
+import fetchDataFrom from './fetchDataFrom.js';
 import getCityConfig from './getCityConfig.js';
 
 
 
 
 /**
- * Récupère le nom de la ville depuis la configuration et utilise l'API géo du gouvernement pour trouver son code INSEE.
- * @returns {Promise<{city: string, inseeCode: string}>} Une promesse qui se résout avec un objet contenant le nom de la ville et son code INSEE.
+ * Fetches the city name from the configuration and uses the government's geo API to find its INSEE code.
+ * @returns {Promise<{city: string, inseeCode: string}>} A promise that resolves with an object containing the city name and its INSEE code.
  */
 export default async function getCityAndInseeCode() {
     try{
@@ -19,17 +19,17 @@ export default async function getCityAndInseeCode() {
         const field = '&fields=code';
         const globalUrl = url + city + field;
 
-        console.log("Récupération du code insee pour la ville de ",city);
-        const data = await fetch(globalUrl);
-        const response = await data.json();
-        const inseeCode = response[0].code;
-        console.log("Code insee récupéré : ",inseeCode);
+        console.log("Retrieving the INSEE code for the city of ",city);
+        const data = await fetchDataFrom(globalUrl);
+        const inseeCode = data[0].code;
+        console.log("Insee code retrieved : ",inseeCode);
         return {
             city,
             inseeCode
         };
     }catch(err){
         console.log(err)
+        throw err
     }
     
 }

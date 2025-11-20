@@ -1,12 +1,12 @@
+import fetchDataFrom from "./fetchDataFrom.js";
 
 
 
 /**
- * Récupère la configuration de la ville depuis le fichier `config.json`.
- * @returns {Promise<object>} Une promesse qui se résout avec l'objet de configuration de la ville.
+ * Fetches the city configuration from the `config.json` file.
+ * @returns {Promise<object>} A promise that resolves with the city configuration object.
  */
 export default async function getCityConfig() {
-    const response = await fetch("/config.json");
-    const cityConfig = await response.json();
+    const cityConfig = await fetchDataFrom("/config.json");
     return cityConfig;
 }
